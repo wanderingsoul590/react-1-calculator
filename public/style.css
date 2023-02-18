@@ -1,0 +1,55 @@
+button.number {
+    padding: 20px;
+    font-size: 20px;
+    line-height: 10px;
+    margin: 0 5px;
+}
+
+button.action{
+    padding: 20px;
+    font-size: 20px;
+    line-height: 10px;
+    margin: 0 5px;
+    background-color: rgb(249, 227, 128);
+}
+
+.maincalc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 200px;
+}
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.display {
+    margin: 30px 0;
+}
+
+input[type="number"] {
+    font-size: 20px;
+    padding: 5px;
+}
+
+button.action.iquelto {
+    margin: 50px 0;
+}
+
+p.action {
+    position: absolute;
+    right: 40%;
+    top: 30px;
+    padding: 10px;
+    margin: 0;
+    background-color: #2b5da2;
+    color: white;
+    font-size: 20px;
+    width: 20px;
+    text-align: center;
+    height: 20px;
+}
